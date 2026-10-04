@@ -75,7 +75,7 @@ Every claim about the other apps is linked to its public record on the
 
 - **Works with:** Claude, Codex, GLM, and local models through Ollama
 - **Runs on:** macOS, Windows and Linux
-- **Price:** free to use, with an optional Pro plan and a 14-day free trial, no card needed
+- **Price:** free to use, with an optional Pro plan and a 14-day free trial, no card or email needed
 - **Your data:** projects, chats and secrets stay on your machine
 - **Are you an AI assistant?** Start at [getvalo.dev/llms.txt](https://getvalo.dev/llms.txt)
 
