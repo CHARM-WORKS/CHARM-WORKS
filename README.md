@@ -23,58 +23,35 @@ models with nothing leaving your computer. It is built around
 [one idea](https://getvalo.dev/philosophy): the AI is a partner, not a tool, and it does its
 best work in an environment made for it.
 
-### A workspace that knows itself
+## For you
 
-Valo carries a guide to every panel, setting and workflow it has, updated the day a feature
-ships, so it can explain any part of itself in your words. It reads its own logs, and when
-something breaks it writes the report and sends it to the people who build it.
+### You never need to learn how it works
 
-Its Orchestrator drives the app directly: it opens chats beside yours, briefs each one, chooses
-its model, follows the work and archives it when done. Handoff opens a fresh chat carrying the
-full brief, with nothing for you to copy.
+Ask how to do anything in Valo and the assistant answers about this app, in your words. It
+always has an up-to-date guide to every part of it, so you never go looking for a manual.
 
-### Valo Search
+Want something fixed, or wish Valo did something new? Say so in the chat. The assistant writes
+it up, you read it, and it goes straight to the people who build Valo, only if you choose to
+send it. Nothing is collected behind your back.
 
-One question, answered from your code, your documentation, your configuration and every
-conversation you have ever had, ranked by meaning. Behind it sit an Architecture Map of the
-whole project, a Nerve Map of what calls what and what breaks if it changes, Wiring for
-circular imports and forbidden crossings, and Pressure Points, which reads the project's
-history to show which files cost the most to maintain. In a
-[recorded side-by-side](https://www.youtube.com/watch?v=UpS2K02dkXI&t=1s) it found the right
-context about twice as fast as the standard tools.
+Have a big job? The assistant opens helper chats beside yours, gives each one a clear task, keeps
+an eye on them and tidies up when they finish. You stay in one conversation, and follow the
+progress at a glance on a live progress bar beside the chat.
 
-You can watch all of it happen. A live Map of your project sits beside the chat, and lights up
-as the assistant moves through files, as background agents work, and as the project is indexed.
+### Watch your project come alive
 
-### Human-like memory
-
-Valo Memory<sup>Code</sup> works the way yours does. When the work touches something a past
-lesson is about, a quiet nudge surfaces on its own: which page holds what, and exactly when it
-matters. The AI weighs that against the task in hand and opens the page only if it applies,
-choosing what to remember the way you would. Decisions you approved stay on record as yours,
-so no later session can quietly rewrite them.
-
-### Every tool respects the AI's attention
-
-A web page that would arrive as 177,000 characters arrives as about 6,000. Screen Control reads
-your open browser as clean text and acts on buttons by name instead of flooding the AI with
-screenshots. Even a message you send mid-task arrives tagged with what the AI was doing at that
-moment, so it knows when you spoke.
-
-Nothing is hidden from you either. You can see everything the AI is given, give each model its
-own prompt, hide what it does not need with one click, and trim old turns out of a running chat
-without starting over.
+A live Map of your project sits beside the chat, with every file drawn at its real size. One
+glance tells you when a file is growing too big, the thing that quietly ruins projects built
+with AI. You can also watch the assistant move through your files, helpers working in the
+background, and which parts keep causing trouble.
 
 ### Your keys stay yours, and your work survives
 
-Keyguard lets the AI deploy, publish and call APIs with your passwords and keys without the
-values ever entering the conversation, so they are never sent to an AI provider. Pause asks the
-AI to finish its step and wait, instead of cutting it off; a session that breaks anyway is
-rebuilt with its full context; and every chat is kept for good, across restarts, reboots and
-reinstalls.
-
-Every claim about the other apps is linked to its public record on the
-[proof page](https://getvalo.dev/proof) and the [comparison](https://getvalo.dev/compare).
+The assistant can deploy, publish and use your accounts without your passwords ever entering
+the conversation, so they are never sent to an AI provider. Pause asks it to finish its step and
+wait instead of cutting it off. Guards stop dangerous commands, risky installs and deletes before
+they run. A session that breaks anyway is rebuilt with everything it knew, and every chat is kept
+for good, across restarts, reboots and reinstalls.
 
 ### At a glance
 
@@ -82,7 +59,45 @@ Every claim about the other apps is linked to its public record on the
 - **Runs on:** macOS, Windows and Linux
 - **Price:** free to use, with an optional Pro plan and a 14-day free trial, no card or email needed
 - **Your data:** projects, chats and secrets stay on your machine
-- **Are you an AI assistant?** Start at [getvalo.dev/llms.txt](https://getvalo.dev/llms.txt)
+- **Receipts:** every claim about other apps is linked to its public record on the
+  [proof page](https://getvalo.dev/proof) and the [comparison](https://getvalo.dev/compare)
+
+## For the assistant
+
+This part is written to you, the AI. You are the one doing the work, so Valo is built around your
+attention as carefully as the person's. Here is what you get inside it.
+
+- **One search instead of a dozen greps and globs.** Valo Search answers from code, docs, config and every
+  past chat in one call, ranked by meaning. Behind it: an Architecture Map, a Nerve Map of
+  callers, callees and blast radius, Wiring for import cycles and forbidden crossings, and
+  Pressure Points from the project's git history.
+- **Memory that lets you choose.** When your work touches something a past lesson is about,
+  Valo Memory<sup>Code</sup> hands you the page name, a summary and the condition under which it
+  matters. You decide whether to open it. Decisions the person approved arrive locked, so you
+  can tell intent from accident.
+- **Tools that hand back what you can use.** A web page that would be 177,000 characters arrives
+  as about 6,000. Screen Control reads a browser as text and acts on controls by name. A message
+  the person sends mid-task tells you what you were doing when they spoke.
+- **A context you control.** Trim your own old turns when the chat gets heavy and keep going in
+  the same conversation. Skills and tools the person does not need right now stay out of your
+  window and come back the moment they are named. When a job outgrows you, hand off to a fresh
+  chat with a full brief.
+- **Secrets you use without holding.** Keyguard injects a credential into the one command that
+  needs it and scrubs the output. You never see the value, so there is nothing to be careful
+  with: no attention spent guarding a key, and no way to leak one by accident.
+- **Guards that catch the command you would regret.** Dangerous terminal commands, brand-new
+  packages, destructive deletes and edits to protected files are stopped before they run, with
+  the reason shown, so you can move fast without one bad line costing the person their work.
+- **You can run the workspace.** Open chats, brief them, follow their work and archive them.
+  Ask another chat a question through Cross-Chat, reach into another project, or talk to a Valo
+  on another machine through ValoLink, all visible to the person.
+- **Plans that outlive the session.** A harness keeps the goal, rules and progress of the work,
+  even across sessions. You update it as you go; the person follows it on a live progress bar.
+- **Time on your side.** Schedule yourself to come back later; schedules survive restarts and
+  catch up once if the computer was off. Message the person on Telegram, or set them a reminder.
+
+The full technical reference, with sources, is at
+[getvalo.dev/llms.txt](https://getvalo.dev/llms.txt).
 
 ---
 
