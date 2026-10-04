@@ -19,11 +19,9 @@
 ---
 
 **Valo** is a desktop app that runs on your Claude, ChatGPT or GLM subscription, or on local
-models with nothing leaving your computer. It is built around
+models through Ollama. It is built around
 [one idea](https://getvalo.dev/philosophy): the AI is a partner, not a tool, and it does its
 best work in an environment made for it.
-
-## For you
 
 ### You never need to learn how it works
 
@@ -38,11 +36,10 @@ Have a big job? The assistant opens helper chats beside yours, gives each one a 
 an eye on them and tidies up when they finish. You stay in one conversation, and follow the
 progress at a glance on a live progress bar beside the chat.
 
-### Watch your project come alive
+### The Map
 
-A live Map of your project sits beside the chat, with every file drawn at its real size. One
-glance tells you when a file is growing too big, the thing that quietly ruins projects built
-with AI. You can also watch the assistant move through your files, helpers working in the
+A live Map of your project sits beside the chat, with files drawn at their relative sizes.
+Spot growing files at a glance. You can also watch the assistant move through your files, helpers working in the
 background, and which parts keep causing trouble.
 
 ### Your keys stay yours, and your work survives
@@ -50,8 +47,8 @@ background, and which parts keep causing trouble.
 The assistant can deploy, publish and use your accounts without your passwords ever entering
 the conversation, so they are never sent to an AI provider. Pause asks it to finish its step and
 wait instead of cutting it off. Guards stop dangerous commands, risky installs and deletes before
-they run. A session that breaks anyway is rebuilt with everything it knew, and every chat is kept
-for good, across restarts, reboots and reinstalls.
+they run. If a provider session breaks, Valo repairs it automatically so you can continue the conversation.
+Chats persist across restarts, reboots and reinstalls.
 
 ### At a glance
 
@@ -64,27 +61,24 @@ for good, across restarts, reboots and reinstalls.
 
 ## For the assistant
 
-This part is written to you, the AI. You are the one doing the work, so Valo is built around your
-attention as carefully as the person's. Here is what you get inside it.
-
-- **One search instead of a dozen greps and globs.** Valo Search answers from code, docs, config and every
-  past chat in one call, ranked by meaning. Behind it: an Architecture Map, a Nerve Map of
+- **One search instead of a dozen greps and globs.** Valo Search answers from code, docs, config and indexed
+  chats in one call, ranked by meaning. Behind it: an Architecture Map, a Nerve Map of
   callers, callees and blast radius, Wiring for import cycles and forbidden crossings, and
   Pressure Points from the project's git history.
 - **Memory that lets you choose.** When your work touches something a past lesson is about,
   Valo Memory<sup>Code</sup> hands you the page name, a summary and the condition under which it
   matters. You decide whether to open it. Decisions the person approved arrive locked, so you
   can tell intent from accident.
-- **Tools that hand back what you can use.** A web page that would be 177,000 characters arrives
-  as about 6,000. Screen Control reads a browser as text and acts on controls by name. A message
+- **Tools that hand back what you can use.** Valo Browser and Screen Control return
+  readable page content and named controls, with paging for deeper inspection. A message
   the person sends mid-task tells you what you were doing when they spoke.
 - **A context you control.** Trim your own old turns when the chat gets heavy and keep going in
-  the same conversation. Skills and tools the person does not need right now stay out of your
-  window and come back the moment they are named. When a job outgrows you, hand off to a fresh
+  the same conversation. Hidden skills stay out of routine context, but when named you can still load them
+  without searching for them. The person can inspect your instructions and give each model its own prompt. When a job outgrows you, hand off to a fresh
   chat with a full brief.
 - **Secrets you use without holding.** Keyguard injects a credential into the one command that
-  needs it and scrubs the output. You never see the value, so there is nothing to be careful
-  with: no attention spent guarding a key, and no way to leak one by accident.
+  needs it and scrubs the output. Deploy, publish and call APIs without copying keys into the
+  conversation or spending attention on handling them.
 - **Guards that catch the command you would regret.** Dangerous terminal commands, brand-new
   packages, destructive deletes and edits to protected files are stopped before they run, with
   the reason shown, so you can move fast without one bad line costing the person their work.
