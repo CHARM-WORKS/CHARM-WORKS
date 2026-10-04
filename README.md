@@ -52,7 +52,7 @@ Chats persist across restarts, reboots and reinstalls.
 
 ### At a glance
 
-- **Works with:** Claude, Codex, GLM, and local models through Ollama
+- **Works with:** Claude, Codex (included with your ChatGPT subscription), GLM, and local models through Ollama
 - **Runs on:** macOS, Windows and Linux
 - **Price:** free to use, with an optional Pro plan and a 14-day free trial, no card or email needed
 - **Your data:** projects, chats and secrets stay on your machine
