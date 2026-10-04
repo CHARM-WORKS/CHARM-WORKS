@@ -50,6 +50,13 @@ wait instead of cutting it off. Guards stop dangerous commands, risky installs a
 they run. If a provider session breaks, Valo repairs it automatically so you can continue the conversation.
 Chats persist across restarts, reboots and reinstalls.
 
+### Your whole workspace in one folder
+
+Choose where Valo keeps your data. Projects, chats, settings, skills, hooks, Guards and your
+encrypted vault travel together. Copy the folder to another machine, point Valo to it, and
+continue where you left off. Sign in to your AI providers again and unlock your vault with
+its password.
+
 ### At a glance
 
 - **Works with:** Claude, Codex (included with your ChatGPT subscription), GLM, and local models through Ollama
